@@ -1,0 +1,32 @@
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:auto;
+    padding: 8px 0;
+    background-image: linear-gradient(to right,#B6FFFA, #80B3FF);
+    position: sticky;
+    bottom:0;
+    /* #D5F2F8, #9BD8DB */
+}
+
+.social-media li{
+    list-style:none;
+    display:inline-block;
+    padding: 0 20px;
+    font-size: 16px;
+}
+
+.social-media a{
+    text-decoration: none;
+    color: black;
+}
+
+.social-media a:hover {
+    /* transition: all 0.2s ease 0s; */
+    color:#52688F;
+}
+
+.copyright{
+    padding:0;
+}
