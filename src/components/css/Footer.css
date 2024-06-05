@@ -1,0 +1,42 @@
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:auto;
+    padding: 8px 0;
+    background-image: linear-gradient(to right,#B6FFFA, #80B3FF);
+    position: sticky;
+    bottom:0;
+}
+
+/* .social-media li{
+    list-style:none;
+    display:inline-block;
+    padding: 0 20px;
+    font-size: 19px;
+} */
+
+.social-media a{
+    text-decoration: none;
+    color: black;
+    cursor:pointer;
+}
+
+.social-media a:hover {
+    transition: all 0.2s ease 0s;
+    color:#52688F;
+}
+
+.social-media{
+    height:30px;
+}
+.copyright{
+    padding:0;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.social-media .icon {
+    vertical-align: middle; /* Align the icon vertically with the text */
+    margin-bottom: 2px;
+  }

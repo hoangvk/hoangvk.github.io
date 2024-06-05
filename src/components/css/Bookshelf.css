@@ -1,0 +1,138 @@
+.bookshelf{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.recommended-form{
+    border:10px;
+    font-size:20px;
+}
+
+
+@keyframes bounce {
+0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+}
+40% {
+    transform: translateY(-20px); /* Increase the distance of upward bounce */
+}
+60% {
+    transform: translateY(-5px); /* Increase the distance of downward bounce */
+}
+}
+
+.bookshelf-icon{
+    margin-right:-55px;
+    cursor:pointer;
+}
+
+.bouncing {
+animation: bounce 1s; 
+}
+
+input {
+    font: inherit;
+    outline: 0;
+  }
+  
+  .recommended-form {
+    position: relative;
+  }
+  
+  .recommended-form .bookshelf-icon {
+    position: absolute;
+    right: 1em;
+    top: 50%;
+    transform: translateY(-50%)
+  }
+  
+  .form__input {
+    border-radius: 0.25em;
+    border:none;
+    font-size: 17px;
+    padding: 0px 15px 7px 15px;
+    width:250px;
+    background-color:inherit;    
+    cursor:pointer;
+  }
+  
+  .form__input:valid {
+    border-bottom: 2px solid black;
+  }
+  
+  .form__input:valid + .bookshelf-icon::after {
+    content: '😃';
+  }
+  
+  .form__input:invalid {
+    border-bottom: 2px solid #687EFF;
+  }
+  
+  .form__input:invalid + .bookshelf-icon::after {
+    content: '🤔';
+  }
+
+  .booklist-container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top:-15px;
+    gap:30px;
+  }
+
+  .column{
+    width:300px;
+    height: 10px;
+  }
+
+  .column ul {
+    list-style-type: none; /* Remove bullet points */
+    margin-top:-15px;
+  }
+  .column li{
+    font-size: 19px;
+  }
+
+  .no{
+    background:none;
+    padding: 2px 2px;
+    border:none;
+    cursor: pointer;
+  }
+
+  .yes{
+    background:none;
+    padding: 0px 5px;
+    font-size:16px;
+    border:none;
+    cursor: pointer;
+  }
+
+  .yes:hover{
+    color: green;
+  }
+
+  .scrollable-list {
+    max-height: calc(6 * 20px); /* Maximum height for 5 entries */
+    overflow-y: auto; 
+  }
+
+  .scrollable-list::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+    height: 12px;
+  }
+  
+  .scrollable-list::-webkit-scrollbar-track {
+    background: white;        /* color of the tracking area */
+  }
+  
+  .scrollable-list::-webkit-scrollbar-thumb {
+    background-color: #687EFF;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid white;  /*creates padding around scroll thumb*/
+  }
+  
