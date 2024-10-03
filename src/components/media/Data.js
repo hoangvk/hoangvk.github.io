@@ -64,10 +64,14 @@ const cradleBottom = require('../media/images/cradle-bottom.jpg')
 
 const drawing = require('../media/images/drawing.png')
 
+const portfolio = require('../media/images/portfolio.jpg')
+
+const portfolio_code = require('../media/images/portfolio-code.jpg')
+
 const appleCrispVid = require('../media/videos/apple_crisp_vid.mp4')
 
 const robertVid = require('../media/videos/scouting.mp4')
 
 const spinning = require('../media/videos/spinning.mp4')
 
-export {shuffleImages, projectImages, profilePic, appleCrisp, appleCrispPoster, scoutingRobert, deckoShuffo, valveControl, picoway, cryogenic, nozzle, footPedal, onOff, morphological, designConcepts, rampAssembly, robertOld, flowchart, W2R_cradle, assemblyLine, fortuneCookie, overCycle, cradleTop, cradleBottom, drawing, appleCrispVid, robertVid, spinning}
+export {shuffleImages, projectImages, profilePic, appleCrisp, appleCrispPoster, scoutingRobert, deckoShuffo, valveControl, picoway, cryogenic, nozzle, footPedal, onOff, morphological, designConcepts, rampAssembly, robertOld, flowchart, W2R_cradle, assemblyLine, fortuneCookie, overCycle, cradleTop, cradleBottom, drawing, portfolio, portfolio_code, appleCrispVid, robertVid, spinning}

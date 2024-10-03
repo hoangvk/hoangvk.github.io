@@ -1,6 +1,6 @@
 import React, { useRef, useEffect, useState } from "react";
 import Map from '../components/dep/Maps';
-import Bookshelf from '../components/dep/Bookshelf';
+import Bookshelf from '../components/dev/Bookshelf';
 import BackToUp from '@uiw/react-back-to-top';
 import { FaLinkedin } from "react-icons/fa"
 import { MdEmail } from "react-icons/md"

@@ -55,12 +55,12 @@ const markers = [
         coordinates: [-123.7, 49.5],
     },
     {
-        markerOffset:8,
+        markerOffset:6,
         name: "YYJ",
         coordinates: [-124, 48.9],
     },
     {
-        markerOffset: 18,
+        markerOffset: 14,
         name: "YXX",
         coordinates: [-121, 49],
     },
@@ -70,9 +70,14 @@ const markers = [
         coordinates: [-118, 50.5],
     },
     {
-        markerOffset: -32,
+        markerOffset: -31,
         name: "YUL",
         coordinates: [-74, 45],
+    },
+    {
+        markerOffset: -39,
+        name: "YOW",
+        coordinates: [-76, 44.8],
     },
     {
         markerOffset: -30,
@@ -93,6 +98,21 @@ const markers = [
         markerOffset: 18,
         name: "IAD",
         coordinates: [-78, 38.3],
+    },
+    {
+        markerOffset: 14,
+        name: "SAN",
+        coordinates: [-116.5, 32.5],
+    },
+    {
+        markerOffset: 8,
+        name: "LAX",
+        coordinates: [-117.4, 33.2],
+    },
+    {
+        markerOffset: -20,
+        name: "SFO",
+        coordinates: [-122.5, 38.5],
     },
 ]
 

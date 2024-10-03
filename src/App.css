@@ -74,7 +74,7 @@
     display:flex;
     flex-direction: row;
     gap:37px;
-    padding:25px 350px;
+    padding:25px 370px;
     align-items: center;
     justify-content: center;
     text-align:justify;
@@ -229,6 +229,7 @@
   bottom: 50px;
   left: 30px;
   right: auto;
+  cursor:pointer;
 }
 
 .contact-list{
@@ -240,16 +241,22 @@
   padding: 0;
   list-style: none;
   filter: drop-shadow(1.2px 1.2px 1.2px #201744);
+  
 }
 
 .contact-list a {
   text-decoration: none;
   color:#212529;
+  
 }
 /* #024F55 */
 .contact-list li a:hover{
   font-size: 33px;
   transition: transform 0.2s ease 0s;
+}
+
+.contact-list svg{
+  cursor:pointer;
 }
 
 .travelled-map{

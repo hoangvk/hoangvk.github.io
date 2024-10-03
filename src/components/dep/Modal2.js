@@ -1,8 +1,8 @@
 import React, { useState } from "react"
 import "../css/Modal.css"
-import {W2R_cradle, scoutingRobert, deckoShuffo, valveControl} from '../media/Data'
+import {W2R_cradle, deckoShuffo, valveControl, portfolio} from '../media/Data'
 import Bottleneck from '../projects/W2R_Bottleneck'
-import Scouting_robert from '../projects/Scouting_robert'
+import Portfolio from '../projects/Portfolio'
 import Decko_shuffo from '../projects/Decko_shuffo'
 import Laser_relief from '../projects/Laser_relief'
 
@@ -53,19 +53,19 @@ export default function Modal2() {
         )}
         <img src={W2R_cradle} class='profile-pic'></img>
       </div>
-      {/* Mountain climber robot */}
+      {/* Personal Website */}
       <div class="display-projects-2">
-        <button onClick={toggleModal2} className="btn-modal">SCOUTING ROBERT</button>
+        <button onClick={toggleModal2} className="btn-modal">PORTFOLIO</button>
         {modal2 && (
           <div className="modal">
             <div onClick={toggleModal2} className="overlay"></div>
             <div className="modal-content">
               <button className="close-modal" onClick={toggleModal2}>&times;</button>
-              <Scouting_robert/>
+              <Portfolio/>
             </div>
           </div>
         )}
-        <img src={scoutingRobert} class='profile-pic'></img>
+        <img src={portfolio} class='profile-pic'></img>
       </div>
       {/* Pain management device */}
       <div class="display-projects-2">

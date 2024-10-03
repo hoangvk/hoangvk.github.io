@@ -15,8 +15,8 @@ function Timeline() {
         title:"Yanfeng - Yanfeng Automotive Interiors",
         location:"Quality Engineering Intern - Mississauga, ON",
         description: [
-            'Developed design verification procedures for assembly lines, impacting over 100,000 Chrysler Pacifica models.',
-            'Created a VBA tool to monitor OEM status for annual PPAP revalidation, reduced expired documents backlog by 86%.',
+            'Developed design verification procedures for component assembly lines, impacting 100,000+ Chrysler Pacifica models.',
+            'Created a VBA tool to monitor OEM status for annual PPAP revalidation, reduced the expired document backlog by 86%.',
             'Analyzed supplier reject reports and scrap system data to identify defective parts, validating over $10,000 chargebacks.',
             'Issued quality alerts that reduced non-conforming parts, improved customer satisfaction and quality feedback by 73%.'
           ],
@@ -30,8 +30,8 @@ function Timeline() {
         description: [
             'Conducted site surveys across 240,000+ sq.ft. of Sunnybrook Hospital, documenting precise conditions and identifying limitations to inform comprehensive project decisions.',
             'Managed and manipulated datasets of 12,000+ rows in Excel using advanced library functions and custom-built scripts.',
-            'Prepared and reviewed project deliverables, contracts, and shop drawings, ensuring adherence to project specifications and maintaining high corporate quality control standards.',
-            'Collaborated with cross-functional clients to align schedules and provide consistent updates on the project timeline.'
+            'Prepared and reviewed project deliverables and shop drawings, ensuring adherence to high-quality standards.',
+            'Collaborated with cross-functional teams to align schedules and provide consistent project timeline updates.'
           ],
         date: "September 2022 - December 2022",
         logo: <BiSolidReport/>,
@@ -40,10 +40,9 @@ function Timeline() {
         title:"Magna International Inc - Modatek Systems",
         location:"Manufacturing Engineering Intern - Milton, ON",
         description: [
-            'Resolved cycle time issues in assembly lines by troubleshooting and rearranging weld IDs, eliminating 2 bottlenecks and reducing their cycle times by 10.1% and 8.9%, respectively.',
-            'Analyzed inventory data to determine the optimal placement of bins/racks, enhancing accessibility and efficiency.',
-            'Collaborated with Materials Department to design bins/racks, and developed 50+ documentation for SOPs and BOM.',
-            'Created an Excel KPI dashboard, consolidating data from multiple sources to increase team productivity.'
+            'Resolved cycle time issues in assembly lines by troubleshooting and rearranging weld sequences, eliminating 2 bottlenecks and reducing their cycle times by 10.1% and 8.9%, respectively.',
+            'Collaborated with Materials Department, utilizing inventory data to design and place bins/racks for improved efficiency.',
+            'Created an Excel KPI dashboard consolidating data from multiple sources, developed 50+ documents for SOPs, BOM.'
           ],
         date: "January 2022 - April 2022",
         logo: <MdPrecisionManufacturing/>
@@ -64,8 +63,8 @@ function Timeline() {
         title:"Quali AI",
         location:"Startup Engineering Intern - Kitchener, ON",
         description: [
-            'Designed camera housings using SolidWorks, researching materials and mounts to optimize production cost.',
-            'Independently developed a new version of the company website in just 2 weeks, mastering JavaScript, ReactJS, HTML, and CSS to create a modern and responsive design.'
+            'Designed camera housings using SolidWorks, researching materials and mounts to optimize production costs.',
+            'Independently developed a new version of the company website in 2 weeks, mastering JavaScript, React, HTML, CSS.'
           ],
         date: "January 2020 - February 2020",
         logo: <FaLaptopCode/>,

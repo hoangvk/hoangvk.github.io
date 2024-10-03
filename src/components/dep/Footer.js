@@ -9,7 +9,7 @@ function Footer() {
       {/* <p class='copyright'>© 2024 by Hoang Vu</p> */}
       <p class='copyright'>
         <a href="mailto:hoangvukhue@gmail.com"><MdEmail class ="icon"/> hoangvukhue@gmail.com </a>
-        | <MdOutlinePhoneAndroid class="icon"/>6046218519 
+        | <MdOutlinePhoneAndroid class="icon"/>437-601-5608 
       </p>
       {/* <ul class="social-media">
         <li><a href="https://www.linkedin.com/in/hoang-vu-1705b919b/"><FaLinkedin/> LinkedIn</a></li>

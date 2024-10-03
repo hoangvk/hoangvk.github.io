@@ -134,6 +134,7 @@ img{
 
 .link:hover{
     font-style: italic;
+    cursor:pointer;
 }
 
 .video{
@@ -206,7 +207,7 @@ p{
     padding:0 10px;
 }
 
-.display-projects-2:nth-child(2),
+/* .display-projects-2:nth-child(2), */
 .display-projects-2:nth-child(3),
 .display-projects-2:nth-child(4) {
   visibility: hidden;

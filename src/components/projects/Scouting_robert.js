@@ -46,7 +46,7 @@ function Scouting_robert() {
           <a class="link" href="https://github.com/nicquil/MTE380">Scouting Robert github</a>.<br/>
           <img src={flowchart} class="modal-imgs" style={{width:"100%"}}></img><br/>
           <strong>Result: </strong>
-          The final robot, weighing 648g, completed the course in 28s, securing 3rd place out of 21 competing groups.<br/><br/>
+          The final robot, weighing 648g, successfully completed the course in 28s, securing 3rd place out of 21 competing groups.<br/><br/>
           <video class="video" src={robertVid} type="video/mp4" controls>This browser does not support the video tag.</video>
         </p>
     </div>
